@@ -159,3 +159,29 @@ User Feedback
 Preference Learning
     ↓
 Future Personalization
+```
+
+# 5. Data Used
+
+## Data Sources
+
+| Data Source | Purpose |
+|---|---|
+| User Goals | Goal planning |
+| Tasks | Prioritization |
+| Habit History | Behaviour analysis |
+| User Feedback | Personalization |
+| Product Usage Data | Recommendation improvement |
+
+## Sensitive Data
+
+The system may process:
+
+- Personal goals
+- Productivity habits
+- Daily schedules
+- Learning preferences
+
+No financial account credentials, medical records, or highly sensitive personal information are required in the MVP.
+
+The product should only collect information necessary to provide the intended productivity and personal-growth experience.
