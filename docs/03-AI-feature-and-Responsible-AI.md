@@ -4,19 +4,19 @@
 
 LIFE OS AI uses AI as a core product capability rather than simply as an add-on feature.
 
-The central AI experience is the **AI Life Coach Agent**, an intelligent personal assistant designed to help users manage goals, tasks, habits, learning plans, and daily decisions through personalized, context-aware guidance.
+The central AI experience is the **AI Life Coach Agent**, an intelligent personal assistant designed to help users manage goals, tasks, habits, learning plans, and daily decisions.
 
-The AI system continuously analyzes relevant user activities, priorities, goals, and historical progress to generate personalized recommendations and action plans.
+The agent continuously analyses user activities, priorities, goals, and historical progress to generate personalized recommendations and action plans.
 
 ---
 
-## 1. AI Feature Overview
+# 1. AI Feature Overview
 
-### AI Feature Name
+## AI Feature Name
 
 **AI Life Coach Agent**
 
-### What Does It Do?
+## What Does It Do?
 
 The AI Life Coach Agent acts as an intelligent personal assistant that helps users:
 
@@ -28,11 +28,11 @@ The AI Life Coach Agent acts as an intelligent personal assistant that helps use
 - Understand progress
 - Receive personalized recommendations
 
-The agent analyzes relevant user activities, priorities, goals, and historical progress to generate personalized recommendations and action plans.
+The agent continuously analyses relevant user activities, priorities, goals, and historical progress to generate personalized recommendations and action plans.
 
-### Where Does the AI Appear?
+## Where Does It Appear in the User Journey?
 
-The AI experience appears across multiple parts of the product:
+The AI feature appears across:
 
 - Dashboard
 - Goal Planning
@@ -41,33 +41,23 @@ The AI experience appears across multiple parts of the product:
 - Weekly Progress Review
 - AI Chat Assistant
 
----
-
-## 2. Why AI Is Useful
+## Why AI Is Useful
 
 Traditional productivity tools primarily store information and require users to decide what to do next.
 
-LIFE OS AI uses AI to provide additional decision support.
+AI can help users by:
 
-### AI Value
+- Prioritizing tasks
+- Identifying patterns
+- Generating personalized recommendations
+- Providing proactive guidance
+- Reducing decision fatigue
 
-The AI is designed to:
-
-- Prioritize tasks
-- Identify patterns
-- Generate personalized recommendations
-- Provide proactive guidance
-- Reduce decision fatigue
-
-### Product Principle
-
-> AI should help users move from information and intentions to meaningful action.
-
-The objective is not simply to automate productivity features, but to provide context-aware guidance based on the user's goals, behaviour, and preferences.
+The objective is to provide context-aware guidance rather than generic productivity advice.
 
 ---
 
-## 3. AI Capabilities Used
+# 2. Type of AI Capability Used
 
 | AI Capability | Purpose |
 |---|---|
@@ -77,9 +67,11 @@ The objective is not simply to automate productivity features, but to provide co
 | Retrieval-Augmented Generation (RAG) | Uses stored user context for better responses |
 | Conversational AI | Supports natural-language interaction |
 
-### Why These Capabilities Were Chosen
+## Why These Capabilities Were Chosen
 
-These capabilities allow LIFE OS AI to provide:
+These capabilities allow LIFE OS AI to deliver personalized, context-aware guidance rather than generic productivity advice.
+
+The combination supports:
 
 - Personalized guidance
 - Context-aware recommendations
@@ -87,13 +79,67 @@ These capabilities allow LIFE OS AI to provide:
 - Goal-oriented planning
 - Continuous improvement based on user feedback
 
-The combination is intended to move the experience beyond generic productivity advice.
+---
+
+# 3. AI Inputs & Outputs
+
+The AI system uses different types of user information to produce context-aware outputs.
+
+| Input Given to AI | AI Processing / Logic | Output Shown to User |
+|---|---|---|
+| User goals | Goal analysis | Goal recommendations |
+| Daily tasks | Priority scoring | Daily action plan |
+| Habit data | Trend analysis | Habit improvement suggestions |
+| Progress history | Performance evaluation | Weekly summary |
+| User questions | Context retrieval + reasoning | Personalized responses |
+
+This input-processing-output model allows the AI experience to connect user context with actionable recommendations.
 
 ---
 
-## 4. AI Workflow
+# 4. AI Workflow
 
-The proposed AI Life Coach workflow is:
+## Step-by-Step Workflow
+
+### Step 1: User Input
+
+The user enters:
+
+- Goals
+- Tasks
+- Habits
+
+or asks the AI a question.
+
+### Step 2: Context Collection
+
+The system collects relevant user context and historical data.
+
+### Step 3: Context Retrieval
+
+The RAG layer retrieves relevant user information.
+
+### Step 4: AI Reasoning
+
+The AI model analyses the retrieved context and generates recommendations.
+
+### Step 5: Safety & Validation
+
+Safety and validation rules review the generated response.
+
+### Step 6: User Response
+
+The validated response is presented to the user.
+
+### Step 7: User Feedback
+
+The user provides feedback on the recommendation.
+
+### Step 8: Preference Learning
+
+The system uses feedback to improve future recommendations and personalization.
+
+## Workflow
 
 ```text
 User Input
@@ -102,7 +148,7 @@ Collect User Context
     ↓
 Retrieve Relevant Information using RAG
     ↓
-AI Reasoning & Recommendation Generation
+AI Analysis & Recommendation Generation
     ↓
 Safety & Validation Checks
     ↓
